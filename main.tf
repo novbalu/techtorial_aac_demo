@@ -3,7 +3,7 @@ terraform {
     organization = "balnovak"
 
     workspaces {
-      name = "techtorial-demo"
+      name = "terraform-acc-demo-balnovak"
     }
   }
 }
