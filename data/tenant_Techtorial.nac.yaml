@@ -26,6 +26,9 @@ apic:
           vrf: VRF1
           subnets:
             - ip: 10.1.4.1/23
+        # Added by balnovak
+        - name: VLAN1337
+          vrf: VRF1
 
       application_profiles:
         - name: DEV
@@ -38,4 +41,6 @@ apic:
               bridge_domain: VLAN103
             - name: VLAN104
               bridge_domain: VLAN104
-
+            # Added by balnovak
+            - name: VLAN1337
+              bridge_domain: VLAN1337
